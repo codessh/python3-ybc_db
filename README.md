@@ -9,4 +9,5 @@ This is a Practical Python 3 Database Module!
 database = ybc_db.create_db(name)
 
 c_todo = database.collection(name)
+
 c_todo.insert_one({'123':"456"})

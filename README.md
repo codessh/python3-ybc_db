@@ -27,4 +27,5 @@ c_todo.insert_one({'123':"456"})
 get = c_todo.find_one({'age':11})
 
 '''find all data'''
+
 get = c_todo.find_all()

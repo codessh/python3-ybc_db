@@ -7,5 +7,6 @@ This is a Practical Python 3 Database Module!
 4.Enjoy!(Run test.py to check the program is running normally)
 # Functions
 database = ybc_db.create_db(name)
+
 c_todo = database.collection(name)
 c_todo.insert_one({'123':"456"})

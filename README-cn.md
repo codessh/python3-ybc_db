@@ -14,22 +14,4 @@
 
 # 功能
 
-'''创建数据库'''
-
-database = ybc_db.create_db(name)
-
-'''创建新集合'''
-
-c_todo = database.collection(name)
-
-'''创建新数据'''
-
-c_todo.insert_one({'123':"456"})
-
-'''搜索单个数据'''
-
-get = c_todo.find_one({'age':11})
-
-'''获取所有数据'''
-
-get = c_todo.find_all()
+详见main分支的functions.py

@@ -1,6 +1,6 @@
 # 从猿编程的程序文件中提取
 # 这些代码是叔叔阿姨们的劳动成果, 
-# 禁止未标注原作者的搬运,代码仅供参考、研究和使用
+# 禁止未标注原作者的搬运,代码仅供参考、研究
 import pymongo
 from bson.objectid import ObjectId
 
